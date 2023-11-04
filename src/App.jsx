@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Player from "./Components/Player.jsx";
 import GameBoard from "./Components/GameBoard.jsx";
+import Log from "./Components/Log.jsx"
 
 function App() {
   const [gameTurns, setGameTurns] = useState([]);
@@ -37,6 +38,7 @@ function App() {
           turns={gameTurns}
         />
       </div>
+      <Log turns={gameTurns}/>
     </main>
   )
 }
