@@ -1,4 +1,4 @@
-export default function({ winner, onRestart }) {
+export default function ({winner, onRestart}) {
   return (
     <div id="game-over">
       <h2>Game Over!</h2>
