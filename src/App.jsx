@@ -106,7 +106,7 @@ function App() {
         board={gameBoard}
       />
     </div>
-    <Log turns={gameTurns}/>
+    {/*<Log turns={gameTurns}/>*/}
   </main>)
 }
 
